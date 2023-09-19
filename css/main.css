@@ -1,0 +1,68 @@
+body {
+  font-family: century-gothic, sans-serif;
+}
+.bg-color {
+  background-color: rgba(49, 153, 171, 0.575);
+}
+
+.display-temp {
+  background-image: url(../images/france.svg);
+  background-size: cover;
+  background-position: center center;
+}
+
+.display-temp #search-bar {
+  padding: 5px 15px;
+  border-radius: 17px !important;
+  font-size: 18px !important;
+}
+
+.display-temp .temp-card {
+  border-radius: 7px;
+  background-color: #3199ab;
+}
+
+.display-temp .temp-card h2 {
+  font-size: 50px;
+  font-weight: 600;
+}
+.display-temp .temp-card h3 {
+  font-size: 45px;
+  font-weight: 500;
+}
+
+.display-temp .temp-card .day-and-date {
+  background-color: #374850;
+  font-size: 17px;
+}
+
+.display-temp .temp-card .day-and-date {
+  background-color: #455a64;
+  color: #bfc1c8;
+  padding: 5px 15px;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+  font-size: 19px;
+}
+
+.display-temp .temp-card #location {
+  font-size: 22px;
+}
+
+.display-temp .temp-card .temp-datails {
+  color: #fff;
+}
+
+.display-temp .temp-card .temp-datails #today-description,
+.display-temp .temp-card .temp-datails .nextDay-description {
+  font-size: 18px;
+}
+
+.display-temp .alltemp {
+  background-color: #83bbc4;
+  transition: all 0.3s;
+  padding-bottom: 24px;
+}
+.display-temp .alltemp:hover {
+  background-color: #3199ab;
+}
